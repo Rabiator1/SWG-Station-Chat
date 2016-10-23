@@ -6,6 +6,13 @@ https://github.com/Light2/StationChat/commits/master
 
 Credits to Light2
 
+This Station-Chat works for up to 10 SWG-Game-Servers !!
+Failover works fully, that means you can shutdown/switch-on the station-chat and SWG reconnect without
+problem and dont need to restart SWG for it.
+You can also shutdown SWG-Game-Server and start again without restart the station-chat.
+You can send cross-Server instant-messages, mails and addFriend.
+For a BAN you have to use a fullName, that means "SWG-BASTEL.testuser" or "SWG.SWG-BASTEL.testuser" for security-messures.
+
 Use Eclipse-Software to compile it !
 Export it as runnable JAR
 run it "java -jar station-chat.jar"
