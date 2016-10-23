@@ -7,11 +7,13 @@ https://github.com/Light2/StationChat/commits/master
 Credits to Light2
 
 Use Eclipse-Software to compile it !
-(Maybe there is still set "advanced Mem-leak-check" in the enviroment)
 Export it as runnable JAR
 run it "java -jar station-chat.jar"
 
 ####################### How to run the Chat ############################
+
+######## at the moment it works only on SWG-Linux Versions ####
+Have to find out how to change it on Windows based Star Wars Galaxies.
 
 Station-Chat from Light has one problem,
 It run on TCP, but SWG run on UDP.
@@ -67,7 +69,7 @@ to: add_definitions(-DEXTERNAL_DISTRO -DNAMESPACE=ChatSystem -D_REENTRANT -DUSE_
 
 #######################################################################################
 
-Now compile
+Now compile SWG
 #################################
 than set in your config in SWG:
 [ChatServer]
